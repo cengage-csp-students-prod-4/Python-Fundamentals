@@ -34,4 +34,5 @@ taxableIncome = grossIncome - STANDARD_DEDUCTION - \
 incomeTax = taxableIncome * TAX_RATE
          
 # Display the income tax
-print("The income tax is $" + str(incomeTax))
+print(f"The income tax is ${incomeTax:.2f}")
+
