@@ -3,6 +3,11 @@ distance = int(input("Enter the distance value: "))
 encrypted = ""
 
 for ch in message:
-    encrypted += chr(ord(ch) + distance)
+        code = ord(ch)
+        code = code + distance
+
+        while code > 126:
+            code = code - 95
+        encrypted += chr(code)
 
 print(encrypted)
