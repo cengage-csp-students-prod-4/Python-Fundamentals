@@ -1,1 +1,11 @@
-# Write your program here
+input_file = input("Enter the input file name: ")
+output_file = input("Enter the output file name: ")
+
+with open(input_file, "r") as infile, open(output_file, "w") as outfile:
+    line_number = 1
+
+    for line in infile:
+        outfile.write(f"{line_number:>4}> {line}")
+        line_number += 1
+
+print("File copied successfully.")
