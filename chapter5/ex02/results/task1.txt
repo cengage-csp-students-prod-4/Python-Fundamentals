@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Program outputs Daniel when line 3 is requested
 Reason: correct values were found in the program's output.None
-Timestamp: 2026-11-02 04:06:28.871015
+Timestamp: 2026-11-02 04:06:47.168918
 
 Status: PASSED!
 Check: 2
 Test: Program outputs Max and Sebastian when lines 1 and 5 are requested
 Reason: correct values were found in the program's output.None
-Timestamp: 2026-11-02 04:06:28.886967
+Timestamp: 2026-11-02 04:06:47.184628
