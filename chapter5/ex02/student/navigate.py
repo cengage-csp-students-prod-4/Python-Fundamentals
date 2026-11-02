@@ -1,19 +1,14 @@
-def main():
-    filename = input("Enter the input file name: ")
+filename = input("Enter the input file name: ")
 
-    with open(filename, "r") as f:
-        lines = f.readlines()
+with open(filename, "r") as infile:
+    lines = [line.rstrip("\n") for line in infile]
 
-    count = len(lines)
+while True:
+    print(f"The file has {len(lines)} lines.")
+    line_num = int(input("Enter a line number [0 to quit]: "))
 
-    while True:
-        print("The file has " + str(count) + " lines.")
-        number = int(input("Enter a line number [0 to quit]: "))
+    if line_num == 0:
+        break
 
-        if number == 0:
-            break
-
-        if 1 <= number <= count:
-            print(number, ": ", lines[number - 1])
-        else:
-            print("Line number must be between 1 and " + str(count) + ".\n")
+    print(f"{line_num} :  {lines[line_num - 1]}")
+    print()
