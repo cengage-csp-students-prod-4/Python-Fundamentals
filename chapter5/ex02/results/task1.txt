@@ -1,0 +1,16 @@
+
+Status: FAILED!
+Check: 1
+Test: Program outputs Daniel when line 3 is requested
+Reason: Unable to find '['Daniel']' in the program's output.
+.
+Error : AssertionError - Unable to find Daniel in the program's output.
+Timestamp: 2026-11-02 04:02:10.060954
+
+Status: FAILED!
+Check: 2
+Test: Program outputs Max and Sebastian when lines 1 and 5 are requested
+Reason: Unable to find '['Max', 'Sebastian']' in the program's output.
+.
+Error : AssertionError - Unable to find Max in the program's output.
+Timestamp: 2026-11-02 04:02:10.076444
