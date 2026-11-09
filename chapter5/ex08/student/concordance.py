@@ -1,27 +1,16 @@
-# concordance.py
+filename = input("Enter the input file name: ")
 
-def main():
-    filename = input("Enter the input file name: ")
+counts = {}
 
-    word_counts = {}
+with open(filename, "r") as infile:
+    for line in infile:
+        words = line.split()
 
-    try:
-        with open(filename, "r") as file:
-            for line in file:
-                words = line.split()
+        for word in words:
+            if word in counts:
+                counts[word] += 1
+            else:
+                counts[word] = 1
 
-                for word in words:
-                    word = word.lower()  # makes counting case-insensitive
-
-                    if word in word_counts:
-                        word_counts[word] += 1
-                    else:
-                        word_counts[word] = 1
-
-        for word in sorted(word_counts):
-            print(word, word_counts[word])
-
-    except FileNotFoundError:
-        print("File not found.")
-
-main()
+for word in sorted(counts):
+    print(word, counts[word])
