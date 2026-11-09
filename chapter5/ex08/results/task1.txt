@@ -1,0 +1,36 @@
+
+Status: FAILED!
+Reason: Unable to run concordance.py
+Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
+     
+    ^
+SyntaxError: invalid non-printable character U+00A0
+
+Timestamp: 2026-11-09 05:29:03.138430
+
+Status: FAILED!
+Reason: Unable to run concordance.py
+Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
+     
+    ^
+SyntaxError: invalid non-printable character U+00A0
+
+Timestamp: 2026-11-09 05:29:03.138554
+
+Status: FAILED!
+Reason: Unable to run concordance.py
+Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
+     
+    ^
+SyntaxError: invalid non-printable character U+00A0
+
+Timestamp: 2026-11-09 05:29:03.209423
+
+Status: FAILED!
+Reason: Unable to run concordance.py
+Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
+     
+    ^
+SyntaxError: invalid non-printable character U+00A0
+
+Timestamp: 2026-11-09 05:29:03.209519
