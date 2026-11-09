@@ -1,36 +1,20 @@
 
 Status: FAILED!
-Reason: Unable to run concordance.py
-Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
-     
-    ^
-SyntaxError: invalid non-printable character U+00A0
+Check: 1
+Test: Program outputs words in correct order.
+Reason: Unable to find '['Alex Esteban Lando Lewis Logan Max']' in the program's output.
+Enter the input file name: alex 2
+esteban 1
+lando 1
+lewis 1
+logan 1
+max 2
+.
+Error : AssertionError - 
+Timestamp: 2026-11-09 05:29:21.419133
 
-Timestamp: 2026-11-09 05:29:03.138430
-
-Status: FAILED!
-Reason: Unable to run concordance.py
-Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
-     
-    ^
-SyntaxError: invalid non-printable character U+00A0
-
-Timestamp: 2026-11-09 05:29:03.138554
-
-Status: FAILED!
-Reason: Unable to run concordance.py
-Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
-     
-    ^
-SyntaxError: invalid non-printable character U+00A0
-
-Timestamp: 2026-11-09 05:29:03.209423
-
-Status: FAILED!
-Reason: Unable to run concordance.py
-Error:   File "/tmp/test/python/chapter5/ex08/concordance.py", line 3
-     
-    ^
-SyntaxError: invalid non-printable character U+00A0
-
-Timestamp: 2026-11-09 05:29:03.209519
+Status: PASSED!
+Check: 2
+Test: Program outputs words in correct order.
+Reason: The program's output contained the correct values in the correct order.None
+Timestamp: 2026-11-09 05:29:21.436312
