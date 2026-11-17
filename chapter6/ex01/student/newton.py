@@ -1,16 +1,13 @@
 import math
 
 def newton(x):
-    """Returns the square root of x using Newton's method."""
     estimate = 1.0
-
     while True:
-        new_estimate = (estimate + x / estimate) / 2
-
-        if abs(new_estimate - estimate) < 0.000000001:
-            return new_estimate
-
-        estimate = new_estimate
+        estimate = (estimate + x / estimate) / 2
+        difference = abs(x - estimate ** 2)
+        if difference <= 0.000001:
+            break
+    return estimate
 
 
 def main():
